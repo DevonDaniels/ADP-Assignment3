@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 public class DepartmentRepositoryTest {
-    DepartmentRepository Departmentreposit =  DepartmentRepository.getRepo();;
+    DepartmentRepository Departmentreposit =  DepartmentRepository.getRepository();;
     Department department =  DepartmentFactory.buildDepartment("Electrical, Electronic and Computer Engineering", "Informatics & Design", "Diploma: Information & Communication Technology: Applications Development" , "Academic\" +\"Non-academic");
 
 
