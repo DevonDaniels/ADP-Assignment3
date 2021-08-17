@@ -6,11 +6,13 @@ package za.ac.cput.Service;
  */
 
 import org.junit.jupiter.api.Test;
+import za.ac.cput.Entity.Course;
+import za.ac.cput.factory.CourseFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CourseServiceTest {
-    CourseService CourseSer =  CourseService.getService();
+    CourseService CourseSer =  CourseService.getCourseService();
     Course course =  CourseFactory.buildCourse(" MTech: Information Technology", "Thesis (R5IT01R)", "Information Technology");
 
 
